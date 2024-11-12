@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="space-x-10 py-10" >
           <a href="#home" className=" hover:text-gray-400/90">HOME</a>
           <a href="#about" className=" hover:text-gray-400/90">ABOUT</a>
-          <a href="#services" className=" hover:text-gray-400/90">SERVICES</a>
+          <a href="#service" className=" hover:text-gray-400/90">SERVICES</a>
           <a href="#projects" className=" hover:text-gray-400/90">PROJECTS</a>
           <a href="#contact" className=" hover:text-gray-400/90">CONTACT</a>
         </div>

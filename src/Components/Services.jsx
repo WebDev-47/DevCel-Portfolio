@@ -35,9 +35,9 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-black text-white py-20" id="about">
+    <div className="bg-black text-white py-20" id="service">
       <div className=" container mx-auto px-8 md:px-16 lg:px-24">
-        <h2 className="text-4xl font-bold text-center mb-12">My Service</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">My services<hr className="mt-4"/></h2>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((services) => (
