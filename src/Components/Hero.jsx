@@ -11,12 +11,12 @@ const Hero = () => {
         duration-300 hover:scale-105 bg-gray-300' />
         <h1 className=' text-4xl font-bold'>
           I'm {''}
-          <span className=' cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Celestine E.O,</span> <br />
+          <span className=' cursor-pointer text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>DevCel E.O,</span> <br />
           Frontend Developer
         </h1>
 
         <p className='mt-4 text-lg text-gray-300'>
-          I specialize in buiding modern and responsive web application
+          I specialize in buiding modern and responsive web application.
         </p>
 
         <div className=' mt-8 space-x-6'>

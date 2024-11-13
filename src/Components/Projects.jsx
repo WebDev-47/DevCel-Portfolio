@@ -3,11 +3,12 @@ import React from "react";
 import employeeMSImage from "../assets/employee-ms.png";
 import bookMSImage from "../assets/admin-dashboard.png";
 
+
 const projects = [
   {
     id: 1,
     name: "Login Form",
-    technologies: "MERN Stack",
+    technologies: "Reactjs Tailwindcss",
     image: employeeMSImage,
     github: "https://github.com/WebDev-47/Login-formtest",
   },
@@ -20,10 +21,10 @@ const projects = [
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
+    name: "Portfolio",
+    technologies: "Reactjs Tailwindcss",
     image: employeeMSImage,
-    github: "https://github.com/YouafKhan1",
+    github: "https://github.com/WebDev-47/DevCel-Portfolio",
   },
 ];
 
