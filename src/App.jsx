@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './COmponents/NavBar'
+
 import { Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
@@ -9,6 +9,7 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Hero from './COmponents/Hero'
 import Services from './Components/Services'
+import Navba from './Components/Navba'
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
 
 
     <div>
-      <NavBar />
+      <Navba />
       <Hero />
       <About />
       <Services />

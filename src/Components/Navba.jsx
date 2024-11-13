@@ -1,9 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-const NavBar = () => {
+const Navba = () => {
+
+
+
   return (
-    <div className="bg-black text-white px-8 md:px-16 lg:px-24 ">
+    <div>
+        <div className="bg-black text-white px-8 md:px-16 lg:px-24 ">
       <div className=" container py-2 flex justify-center md:justify-between items-center bg-gray-800/90 p-4 rounded-b-lg sticky">
         
         <div className=" text-2xl font-bold hidden md:inline 
@@ -22,7 +26,8 @@ const NavBar = () => {
         px-4 py-2 rounded-lg ">Connect Me</button>
       </div>
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default NavBar;
+export default Navba
