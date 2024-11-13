@@ -10,7 +10,7 @@ const About = () => {
           <img
             src={DevCelo}
             alt=""
-            className=" w-[20rem] h-[20rem]  rounded-full object-cover 
+            className=" w-[18rem] h-[18rem]  rounded-full object-cover 
             mb-8 md:mb-0 bg-gray-300 "
           />
           <div className="flex-1">
