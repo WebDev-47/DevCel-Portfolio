@@ -7,7 +7,8 @@ import Projects from './Components/Projects'
 import About from './Components/About'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
-import Hero from './COmponents/Hero'
+import Hero from './Components/Hero'
+
 import Services from './Components/Services'
 import Navba from './Components/Navba'
 
@@ -18,7 +19,7 @@ const App = () => {
 
     <div>
       <Navba />
-      <Hero />
+      <Hero  />
       <About />
       <Services />
       <Projects />
